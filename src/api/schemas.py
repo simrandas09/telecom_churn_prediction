@@ -1,6 +1,5 @@
 # src/api/schemas.py
 from pydantic import BaseModel
-from typing import Optional, List
 
 class ChurnPredictionRequest(BaseModel):
     gender: str
@@ -26,4 +25,3 @@ class ChurnPredictionRequest(BaseModel):
 class ChurnPredictionResponse(BaseModel):
     prediction: int
     probability_churn: float
-    explanation: dict
