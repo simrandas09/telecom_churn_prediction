@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / C extensions
+__pycache__/
+*.py[cod]
+*$py.class
+
+# MLflow files
+mlruns/
+mlflow.db
+.mlflow-cache/
+
+# IDE files
+.vscode/
+.idea/
+
+# Environment files
+.env
+venv/
+env/
+
+# Data - It's often better not to commit large data files
+/data/*.csv
+
+# Notebook checkpoints
+.ipynb_checkpoints/
